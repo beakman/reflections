@@ -6,3 +6,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 To prevent that local changes get lost if another user works in the remote repository, it's useful to pull the changes manually, checking
 first what are you going to do.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+* fork: creates an independent repository in GitHub. Maintaining the original author.
+* clone: copy all the files within a repository and their history.
+* brach: creates a version of the current repository, but inside the repository.
