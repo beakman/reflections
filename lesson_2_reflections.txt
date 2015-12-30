@@ -10,3 +10,33 @@ What value do you think it offers?
 It's an intermediate state of the files. Having an staging area make easier to
 reflects the changes and the files that will be commited from the working
 directory to the repository.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can diff the changes between the working directory and the staging area,
+that way you can see the changes that will be made.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches give us an extra level of logical abstraction, by separating the course
+of the changes into different behaviour.
+
+How do the diagrams help you visualize the branch structure?
+
+Using diagrams is easier to see the parents and children of the commits. Also
+you can see inmediately the different bifurcations of the master branch.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The two branches collapses into one. Because the result is a unique version of
+the repository, its like we just have one branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually
+
+Automatic merging could cause inexpected errors and code would not compile.
+Manual merging allows you to see what will happend when the files combines into
+one.
